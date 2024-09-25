@@ -1,10 +1,14 @@
 <script>
 export default {
-  setup(){
-    const name = 'radwan';
-    const status = 'active';
-    const tasks = ['taskOne','taskTwo','taskThree','taskFour'];
-    const toggleStatus = () =>{
+  data() {
+    return {
+      name: "radwan",
+      status: 'pending',
+      tasks: ["taskone", "tasktwo", "taskthree"],
+    };
+  },
+  methods :{
+    toggleStatus(){
       if(this.status==='active'){
           this.status='pending';
       }
