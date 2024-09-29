@@ -17,6 +17,12 @@ export default {
           this.status='active'
       }
     }
+    return{
+      name,
+      tasks,
+      status,
+      toggleStatus
+    }
   }
 };
 </script>
