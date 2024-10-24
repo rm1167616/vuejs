@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar.vue' ;
 import { RouterView } from 'vue-router';
 </script>
 
+<<<<<<< Updated upstream
 
 
 
@@ -10,3 +11,7 @@ import { RouterView } from 'vue-router';
   <Navbar />
   <RouterView />
 </template>
+=======
+  //// the 
+</template>
+>>>>>>> Stashed changes
